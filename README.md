@@ -13,7 +13,7 @@
  5. Decripta os dados, utilizando a chave e o modo de encriptação autenticada que foram especificados, e realiza a verificação da tag, retornando True ou False, dependendo da validade da tag.
 
 # Project description
-: closed_lock_with_key: Authenticated encryption using the AES block cipher in CBC mode.
+:closed_lock_with_key: Authenticated encryption using the AES block cipher in CBC mode.
 
 - The authenticated encryption mode (Encrypt-then-MAC, Encrypt-and-MAC or MAC-then-Encrypt).
 - Secret keys are generated using the PBKDF2 function of the Crypto.Protocol.KDF module.
