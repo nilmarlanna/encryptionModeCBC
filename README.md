@@ -1,5 +1,5 @@
-# encryptionModeCBC
-# Descrição do projeto
+# Encryption Mode CBC
+## Descrição do projeto
 :closed_lock_with_key: Encriptação autenticada utilizando a cifra de bloco AES no modo CBC.
 
 - O modo de encriptação autenticada (Encrypt-then-MAC, Encrypt-and-MAC ou MAC-then-Encrypt).
@@ -12,7 +12,7 @@
  4. Encripta os dados, utilizando a chave e o modo de encriptação autenticada que foram especificados.
  5. Decripta os dados, utilizando a chave e o modo de encriptação autenticada que foram especificados, e realiza a verificação da tag, retornando True ou False, dependendo da validade da tag.
 
-# Project description
+## Project description
 :closed_lock_with_key: Authenticated encryption using the AES block cipher in CBC mode.
 
 - The authenticated encryption mode (Encrypt-then-MAC, Encrypt-and-MAC or MAC-then-Encrypt).
@@ -24,6 +24,34 @@
  3. Generate a tag from the data, using the specified key.
  4. Encrypts the data, using the key and the authenticated encryption mode that have been specified.
  5. Decrypt the data, using the key and the authenticated encryption mode that were specified, and perform the tag verification, returning True or False, depending on the tag's validity.
+
+## ENCRYPT-and-MAC
+
+
+<p align="center">
+<a href="#">
+<img src="https://user-images.githubusercontent.com/73363559/117678275-9c8a2d00-b185-11eb-9f00-a09fc253b622.PNG" >
+</a>
+</p>
+ 
+ ## ENCRYPT-then-MAC
+
+<p align="center">
+<a href="#">
+<img src="https://user-images.githubusercontent.com/73363559/117680013-27b7f280-b187-11eb-84a7-2e92ab89eb16.PNG" >
+</a>
+</p>
+
+## MAC-then-ENCRYPT
+
+<p align="center">
+<a href="#">
+<img src="https://user-images.githubusercontent.com/73363559/117680307-6a79ca80-b187-11eb-8a84-f459d466568e.PNG" >
+</a>
+</p>
+
+
+
 
 
 
